@@ -2,6 +2,10 @@
 
 Bộ cài **chỉ dành cho Alpine Linux**, dùng 3proxy 1.0.3 và OpenRC. Một IPv4 công khai nhận kết nối HTTP proxy tại nhiều cổng; mỗi cổng dùng một IPv6 ra ngoài riêng trong /64 được nhà cung cấp route tới VPS. Toàn bộ pool dùng chung một cặp thông tin xác thực.
 
+## Đăng ký VPS
+
+[Đăng ký Vultr qua link affiliate của tôi](https://www.vultr.com/?ref=8809561). Khi tạo VPS, chọn Alpine Linux và bật IPv6.
+
 ## Cài đặt
 
 Yêu cầu: quyền root trên Alpine, IPv4 công khai gán trực tiếp, IPv6 hoạt động và một routed IPv6 /64. Bật IPv6 trong bảng điều khiển nhà cung cấp trước khi cài.
