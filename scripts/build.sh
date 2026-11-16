@@ -1,6 +1,5 @@
-# Build for install
-echo "#!/bin/sh" >install.sh
-
-cat system.sh >>install.sh
-cat 3proxy.sh >>install.sh
-cat main.sh >>install.sh
+#!/bin/sh
+# Rebuild the standalone Alpine bundle from its source modules.
+set -eu
+ROOT=$(CDPATH='' cd -- "$(dirname -- "$0")/.." && pwd)
+exec python3 "$ROOT/scripts/alpine/build_setup.py" "$@"

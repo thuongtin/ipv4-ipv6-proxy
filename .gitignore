@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env
+*.env
+3proxy-pool.*
+3proxy-access.json
+3proxy.curl
+proxy-export.*
