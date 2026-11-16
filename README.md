@@ -1,5 +1,7 @@
 # IPv4-to-IPv6 proxy trên Alpine Linux
 
+[Tiếng Việt](README.md) | [简体中文](README.zh-CN.md) | [한국어](README.ko.md) | [日本語](README.ja.md) | [English](README.en.md)
+
 Bộ cài **chỉ dành cho Alpine Linux**, dùng 3proxy 1.0.3 và OpenRC. Một IPv4 công khai nhận kết nối HTTP proxy tại nhiều cổng; mỗi cổng dùng một IPv6 ra ngoài riêng trong /64 được nhà cung cấp route tới VPS. Toàn bộ pool dùng chung một cặp thông tin xác thực.
 
 ## Đăng ký Vultr và nhận credit dùng thử
