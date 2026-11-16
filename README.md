@@ -2,9 +2,17 @@
 
 Bộ cài **chỉ dành cho Alpine Linux**, dùng 3proxy 1.0.3 và OpenRC. Một IPv4 công khai nhận kết nối HTTP proxy tại nhiều cổng; mỗi cổng dùng một IPv6 ra ngoài riêng trong /64 được nhà cung cấp route tới VPS. Toàn bộ pool dùng chung một cặp thông tin xác thực.
 
-## Đăng ký VPS
+## Đăng ký Vultr và nhận credit dùng thử
 
-[Đăng ký Vultr qua link affiliate của tôi](https://www.vultr.com/?ref=8809561). Khi tạo VPS, chọn Alpine Linux và bật IPv6.
+Tạo tài khoản qua **[link đăng ký Vultr](https://www.vultr.com/?ref=8809561)**, sau đó kích hoạt ưu đãi phù hợp trước khi tạo VPS:
+
+- **Quyền lợi cho người dùng mới:** Vultr đang công bố mã **`FLY300VULTR`** để nhận **300 USD credit dùng thử** cho các dịch vụ thuộc chương trình. Đây là số dư dùng dịch vụ, không phải tiền mặt.
+- **Cách nhận:** liên kết thẻ tín dụng hoặc PayPal hợp lệ, vào **Vultr Console → Gift Code** và nhập mã. Kiểm tra Vultr đã chấp nhận mã, số credit được cấp và hạn sử dụng trước khi triển khai VPS.
+- **Điều kiện:** chỉ dành cho khách hàng mới đủ điều kiện, một ưu đãi mỗi người, áp dụng cho sản phẩm được chọn và không cộng dồn với ưu đãi khác. Credit có hạn sử dụng; xem điều khoản hiển thị khi kích hoạt.
+
+Link trên là link affiliate giúp hỗ trợ dự án. **Credit phụ thuộc vào mã ưu đãi được Vultr chấp nhận, không được bảo đảm chỉ bằng việc nhấp link affiliate.**
+
+Đối chiếu ngày **16/11/2026**: [ưu đãi chính thức của Vultr](https://www.vultr.com/coupons/) và [hướng dẫn nhập promo code](https://docs.vultr.com/platform/billing/faq). Ưu đãi có thể thay đổi. Khi tạo VPS cho bộ cài này, chọn Alpine Linux và bật IPv6.
 
 ## Cài đặt
 
